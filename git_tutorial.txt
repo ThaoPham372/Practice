@@ -1,0 +1,9 @@
+khởi tạo local repo (repo trên máy tính cá nhân) git init
+connect local => publish repo git remote add origin <link .git>
+set nhánh chính (master/ main) git branch -M main/master
+đẩy lên local repo git add . / git add tên thư mục hoặc tên file
+commit(lệnh chờ) git commit -m "mô tả"
+git push -u origin tên nhánh
+git log xem lại lịch sử commit/push của git hiện có
+git revert + hash commit quay trở lại commit có mã hash được chọn
+
